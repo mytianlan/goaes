@@ -15,6 +15,6 @@ func CBCDecrypt(ciphertext []byte, key []byte, iv []byte) ([]byte, error)
 //ECB加密，使用zeropadding填充
 func ECBEncrypt(plaintext []byte, key []byte, iv []byte) ([]byte, error)
 
-//ECB解密，使用zeropadding填充
+//ECB解密，使用zeropadding填充|||
 func ECBDecrypt(ciphertext []byte, key []byte, iv []byte) ([]byte, error)
 ```
